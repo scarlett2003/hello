@@ -1,5 +1,9 @@
 <ul>
-	<li><a href="/">首頁</a></li>
-	<li><a href="/about">關於</a></li>
-	<li><a href="/math">樂透</a></li>
+	<li><a href="<%= root_path %>">首頁</a></li>
+	<li><a href="<%= about_path %>">關於</a></li>
+	<li><a href="<%= math_path %>">樂透</a></li>
 </ul>
+
+<% line_number.times do %>
+<hr>
+<% end %>
