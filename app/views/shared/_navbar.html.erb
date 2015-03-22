@@ -1,8 +1,12 @@
 <ul>
-	<li><a href="<%= root_path %>">首頁</a></li>
+	<%= nav_li "首頁", root_path %>
+	<%= nav_li "關於", about_path %>
+	<%= nav_li "樂透", math_path %>
+<!-- 	<li><a href="<%= root_path %>">首頁</a></li>
 	<li><a href="<%= about_path %>">關於</a></li>
 	<li><a href="<%= math_path %>">樂透</a></li>
-</ul>
+ -->
+ </ul>
 
 <% line_number.times do %>
 <hr>
