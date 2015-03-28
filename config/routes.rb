@@ -1,6 +1,7 @@
 Rails.application.routes.draw do
 
   root 'pages#home'
+  # get 'home', to: 'pages#home' 另一種寫法
 
   get 'home', 'about', 'math', controller: 'pages'
 
