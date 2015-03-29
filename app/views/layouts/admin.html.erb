@@ -3,10 +3,11 @@
 <head>
 	<meta charset="UTF-8">
 	<title>後台</title>
+	<%= stylesheet_link_tag 'admin' %>
 </head>
 <body>
 	<h1>後台</h1>
-	<%= render 'shared/navbar', line_number: 1 %>
+	
 	<%= yield %>
 </body>
 </html>

@@ -1,5 +1,5 @@
 class PagesController < ApplicationController
-	# layout 'admin'  #此為一次設定這個controller下的所有樣板
+	layout 'admin'  #此為一次設定這個controller下的所有樣板
   def home
   end
 
@@ -12,5 +12,9 @@ class PagesController < ApplicationController
 
   def math
   	@numbers = (1..46).to_a.sample(6)
+  end
+
+  def admin
+    render layout: 'admin'
   end
 end
