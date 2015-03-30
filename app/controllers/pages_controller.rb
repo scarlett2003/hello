@@ -1,5 +1,5 @@
 class PagesController < ApplicationController
-	layout 'admin'  #此為一次設定這個controller下的所有樣板
+	#layout 'admin'  #此為一次設定這個controller下的所有樣板
   def home
   end
 

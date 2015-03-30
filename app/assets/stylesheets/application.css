@@ -10,15 +10,19 @@
  * defined in the other CSS/SCSS files in this directory. It is generally better to create a new
  * file per style scope.
  *
- = require more 
- 
- = require_tree admin_all
- = require_self
- 
+
+ /*
+= require_self 
+= require_tree ./app
  */
- h1 {
+
+/* app/assets/stylesheets/admin.css */
+
+h1 {
  	/*font-size: 20px;*/
  	color: red 
+}
+
 ul .active  {
 	font-size: 200%;
 	color: red;

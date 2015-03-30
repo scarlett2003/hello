@@ -6142,3 +6142,450 @@ Completed 200 OK in 57ms (Views: 49.3ms | ActiveRecord: 0.0ms)
 
 
 Started GET "/assets/admin-d6c6b8ced26b6575724e1e964f8bb470.css" for ::1 at 2015-03-31 00:50:34 +0800
+
+
+Started GET "/" for ::1 at 2015-03-31 01:00:20 +0800
+Processing by PagesController#home as HTML
+  Rendered pages/home.html.erb within layouts/admin (0.0ms)
+Completed 500 Internal Server Error in 29ms
+
+ActionView::Template::Error (couldn't find file 'more'
+  (in /Users/jovi-new-imac/Box Sync/hello/app/assets/stylesheets/admin.css:1)):
+    3: <head>
+    4: 	<meta charset="UTF-8">
+    5: 	<title>後台</title>
+    6: 	<%= stylesheet_link_tag 'admin' %>
+    7: </head>
+    8: <body>
+    9: 	<h1>後台</h1>
+  app/views/layouts/admin.html.erb:6:in `_app_views_layouts_admin_html_erb__3187682787464614545_70247381246100'
+
+
+  Rendered /Users/jovi-new-imac/.rvm/rubies/ruby-2.0.0-p481/lib/ruby/gems/2.0.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_source.erb (5.9ms)
+  Rendered /Users/jovi-new-imac/.rvm/rubies/ruby-2.0.0-p481/lib/ruby/gems/2.0.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.2ms)
+  Rendered /Users/jovi-new-imac/.rvm/rubies/ruby-2.0.0-p481/lib/ruby/gems/2.0.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.7ms)
+  Rendered /Users/jovi-new-imac/.rvm/rubies/ruby-2.0.0-p481/lib/ruby/gems/2.0.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (21.7ms)
+  Rendered /Users/jovi-new-imac/.rvm/rubies/ruby-2.0.0-p481/lib/ruby/gems/2.0.0/gems/web-console-2.1.1/lib/web_console/templates/_markup.html (0.4ms)
+  Rendered /Users/jovi-new-imac/.rvm/rubies/ruby-2.0.0-p481/lib/ruby/gems/2.0.0/gems/web-console-2.1.1/lib/web_console/templates/style.css within layouts/inlined_string (0.2ms)
+  Rendered /Users/jovi-new-imac/.rvm/rubies/ruby-2.0.0-p481/lib/ruby/gems/2.0.0/gems/web-console-2.1.1/lib/web_console/templates/_inner_console_markup.html within layouts/inlined_string (0.2ms)
+  Rendered /Users/jovi-new-imac/.rvm/rubies/ruby-2.0.0-p481/lib/ruby/gems/2.0.0/gems/web-console-2.1.1/lib/web_console/templates/_prompt_box_markup.html within layouts/inlined_string (0.2ms)
+  Rendered /Users/jovi-new-imac/.rvm/rubies/ruby-2.0.0-p481/lib/ruby/gems/2.0.0/gems/web-console-2.1.1/lib/web_console/templates/console.js within layouts/javascript (14.7ms)
+  Rendered /Users/jovi-new-imac/.rvm/rubies/ruby-2.0.0-p481/lib/ruby/gems/2.0.0/gems/web-console-2.1.1/lib/web_console/templates/main.js within layouts/javascript (0.2ms)
+  Rendered /Users/jovi-new-imac/.rvm/rubies/ruby-2.0.0-p481/lib/ruby/gems/2.0.0/gems/web-console-2.1.1/lib/web_console/templates/error_page.js within layouts/javascript (0.3ms)
+  Rendered /Users/jovi-new-imac/.rvm/rubies/ruby-2.0.0-p481/lib/ruby/gems/2.0.0/gems/web-console-2.1.1/lib/web_console/templates/index.html (35.2ms)
+
+
+Started GET "/" for ::1 at 2015-03-31 01:02:46 +0800
+Processing by PagesController#home as HTML
+  Rendered pages/home.html.erb within layouts/admin (0.0ms)
+Completed 500 Internal Server Error in 7ms
+
+ActionView::Template::Error (couldn't find file 'more'
+  (in /Users/jovi-new-imac/Box Sync/hello/app/assets/stylesheets/admin.css:1)):
+    3: <head>
+    4: 	<meta charset="UTF-8">
+    5: 	<title>後台</title>
+    6: 	<%= stylesheet_link_tag 'admin' %>
+    7: </head>
+    8: <body>
+    9: 	<h1>後台</h1>
+  app/views/layouts/admin.html.erb:6:in `_app_views_layouts_admin_html_erb__3187682787464614545_70247381246100'
+
+
+  Rendered /Users/jovi-new-imac/.rvm/rubies/ruby-2.0.0-p481/lib/ruby/gems/2.0.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_source.erb (5.5ms)
+  Rendered /Users/jovi-new-imac/.rvm/rubies/ruby-2.0.0-p481/lib/ruby/gems/2.0.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.3ms)
+  Rendered /Users/jovi-new-imac/.rvm/rubies/ruby-2.0.0-p481/lib/ruby/gems/2.0.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.7ms)
+  Rendered /Users/jovi-new-imac/.rvm/rubies/ruby-2.0.0-p481/lib/ruby/gems/2.0.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (17.6ms)
+  Rendered /Users/jovi-new-imac/.rvm/rubies/ruby-2.0.0-p481/lib/ruby/gems/2.0.0/gems/web-console-2.1.1/lib/web_console/templates/_markup.html (0.2ms)
+  Rendered /Users/jovi-new-imac/.rvm/rubies/ruby-2.0.0-p481/lib/ruby/gems/2.0.0/gems/web-console-2.1.1/lib/web_console/templates/style.css within layouts/inlined_string (0.2ms)
+  Rendered /Users/jovi-new-imac/.rvm/rubies/ruby-2.0.0-p481/lib/ruby/gems/2.0.0/gems/web-console-2.1.1/lib/web_console/templates/_inner_console_markup.html within layouts/inlined_string (0.3ms)
+  Rendered /Users/jovi-new-imac/.rvm/rubies/ruby-2.0.0-p481/lib/ruby/gems/2.0.0/gems/web-console-2.1.1/lib/web_console/templates/_prompt_box_markup.html within layouts/inlined_string (0.2ms)
+  Rendered /Users/jovi-new-imac/.rvm/rubies/ruby-2.0.0-p481/lib/ruby/gems/2.0.0/gems/web-console-2.1.1/lib/web_console/templates/console.js within layouts/javascript (10.8ms)
+  Rendered /Users/jovi-new-imac/.rvm/rubies/ruby-2.0.0-p481/lib/ruby/gems/2.0.0/gems/web-console-2.1.1/lib/web_console/templates/main.js within layouts/javascript (0.2ms)
+  Rendered /Users/jovi-new-imac/.rvm/rubies/ruby-2.0.0-p481/lib/ruby/gems/2.0.0/gems/web-console-2.1.1/lib/web_console/templates/error_page.js within layouts/javascript (0.2ms)
+  Rendered /Users/jovi-new-imac/.rvm/rubies/ruby-2.0.0-p481/lib/ruby/gems/2.0.0/gems/web-console-2.1.1/lib/web_console/templates/index.html (22.8ms)
+
+
+Started GET "/" for ::1 at 2015-03-31 01:03:40 +0800
+Processing by PagesController#home as HTML
+  Rendered pages/home.html.erb within layouts/admin (0.0ms)
+Completed 200 OK in 2ms (Views: 1.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/admin-d6c6b8ced26b6575724e1e964f8bb470.css" for ::1 at 2015-03-31 01:03:40 +0800
+
+
+Started GET "/assets/admin-d6c6b8ced26b6575724e1e964f8bb470.css" for ::1 at 2015-03-31 01:03:58 +0800
+
+
+Started GET "/" for ::1 at 2015-03-31 01:10:25 +0800
+Processing by PagesController#home as HTML
+  Rendered pages/home.html.erb within layouts/application (0.0ms)
+  Rendered shared/_navbar.html.erb (0.8ms)
+Completed 200 OK in 64ms (Views: 64.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/application.css" for ::1 at 2015-03-31 01:10:25 +0800
+
+ActionController::RoutingError (No route matches [GET] "/application.css"):
+  actionpack (4.2.0) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  web-console (2.1.1) lib/web_console/middleware.rb:37:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.0) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.0) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.0) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.0) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.0) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.0) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.0) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.0) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.0) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.0) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/static.rb:113:in `call'
+  rack (1.6.0) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.0) lib/rails/engine.rb:518:in `call'
+  railties (4.2.0) lib/rails/application.rb:164:in `call'
+  rack (1.6.0) lib/rack/lock.rb:17:in `call'
+  rack (1.6.0) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.0) lib/rack/handler/webrick.rb:89:in `service'
+  /Users/jovi-new-imac/.rvm/rubies/ruby-2.0.0-p481/lib/ruby/2.0.0/webrick/httpserver.rb:138:in `service'
+  /Users/jovi-new-imac/.rvm/rubies/ruby-2.0.0-p481/lib/ruby/2.0.0/webrick/httpserver.rb:94:in `run'
+  /Users/jovi-new-imac/.rvm/rubies/ruby-2.0.0-p481/lib/ruby/2.0.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /Users/jovi-new-imac/.rvm/rubies/ruby-2.0.0-p481/lib/ruby/gems/2.0.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.0ms)
+  Rendered /Users/jovi-new-imac/.rvm/rubies/ruby-2.0.0-p481/lib/ruby/gems/2.0.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/routes/_route.html.erb (0.7ms)
+  Rendered /Users/jovi-new-imac/.rvm/rubies/ruby-2.0.0-p481/lib/ruby/gems/2.0.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/routes/_table.html.erb (6.9ms)
+  Rendered /Users/jovi-new-imac/.rvm/rubies/ruby-2.0.0-p481/lib/ruby/gems/2.0.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.1ms)
+  Rendered /Users/jovi-new-imac/.rvm/rubies/ruby-2.0.0-p481/lib/ruby/gems/2.0.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (61.9ms)
+  Rendered /Users/jovi-new-imac/.rvm/rubies/ruby-2.0.0-p481/lib/ruby/gems/2.0.0/gems/web-console-2.1.1/lib/web_console/templates/_markup.html (0.2ms)
+  Rendered /Users/jovi-new-imac/.rvm/rubies/ruby-2.0.0-p481/lib/ruby/gems/2.0.0/gems/web-console-2.1.1/lib/web_console/templates/style.css within layouts/inlined_string (0.3ms)
+  Rendered /Users/jovi-new-imac/.rvm/rubies/ruby-2.0.0-p481/lib/ruby/gems/2.0.0/gems/web-console-2.1.1/lib/web_console/templates/_inner_console_markup.html within layouts/inlined_string (0.2ms)
+  Rendered /Users/jovi-new-imac/.rvm/rubies/ruby-2.0.0-p481/lib/ruby/gems/2.0.0/gems/web-console-2.1.1/lib/web_console/templates/_prompt_box_markup.html within layouts/inlined_string (0.2ms)
+  Rendered /Users/jovi-new-imac/.rvm/rubies/ruby-2.0.0-p481/lib/ruby/gems/2.0.0/gems/web-console-2.1.1/lib/web_console/templates/console.js within layouts/javascript (11.4ms)
+  Rendered /Users/jovi-new-imac/.rvm/rubies/ruby-2.0.0-p481/lib/ruby/gems/2.0.0/gems/web-console-2.1.1/lib/web_console/templates/main.js within layouts/javascript (0.2ms)
+  Rendered /Users/jovi-new-imac/.rvm/rubies/ruby-2.0.0-p481/lib/ruby/gems/2.0.0/gems/web-console-2.1.1/lib/web_console/templates/error_page.js within layouts/javascript (0.2ms)
+  Rendered /Users/jovi-new-imac/.rvm/rubies/ruby-2.0.0-p481/lib/ruby/gems/2.0.0/gems/web-console-2.1.1/lib/web_console/templates/index.html (23.6ms)
+
+
+Started GET "/application.js" for ::1 at 2015-03-31 01:10:25 +0800
+
+ActionController::RoutingError (No route matches [GET] "/application.js"):
+  actionpack (4.2.0) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  web-console (2.1.1) lib/web_console/middleware.rb:37:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.0) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.0) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.0) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.0) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.0) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.0) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.0) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.0) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.0) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.0) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/static.rb:113:in `call'
+  rack (1.6.0) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.0) lib/rails/engine.rb:518:in `call'
+  railties (4.2.0) lib/rails/application.rb:164:in `call'
+  rack (1.6.0) lib/rack/lock.rb:17:in `call'
+  rack (1.6.0) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.0) lib/rack/handler/webrick.rb:89:in `service'
+  /Users/jovi-new-imac/.rvm/rubies/ruby-2.0.0-p481/lib/ruby/2.0.0/webrick/httpserver.rb:138:in `service'
+  /Users/jovi-new-imac/.rvm/rubies/ruby-2.0.0-p481/lib/ruby/2.0.0/webrick/httpserver.rb:94:in `run'
+  /Users/jovi-new-imac/.rvm/rubies/ruby-2.0.0-p481/lib/ruby/2.0.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /Users/jovi-new-imac/.rvm/rubies/ruby-2.0.0-p481/lib/ruby/gems/2.0.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (0.8ms)
+  Rendered /Users/jovi-new-imac/.rvm/rubies/ruby-2.0.0-p481/lib/ruby/gems/2.0.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/routes/_route.html.erb (0.8ms)
+  Rendered /Users/jovi-new-imac/.rvm/rubies/ruby-2.0.0-p481/lib/ruby/gems/2.0.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/routes/_table.html.erb (0.9ms)
+  Rendered /Users/jovi-new-imac/.rvm/rubies/ruby-2.0.0-p481/lib/ruby/gems/2.0.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.9ms)
+  Rendered /Users/jovi-new-imac/.rvm/rubies/ruby-2.0.0-p481/lib/ruby/gems/2.0.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (17.2ms)
+  Rendered /Users/jovi-new-imac/.rvm/rubies/ruby-2.0.0-p481/lib/ruby/gems/2.0.0/gems/web-console-2.1.1/lib/web_console/templates/_markup.html (0.2ms)
+  Rendered /Users/jovi-new-imac/.rvm/rubies/ruby-2.0.0-p481/lib/ruby/gems/2.0.0/gems/web-console-2.1.1/lib/web_console/templates/style.css within layouts/inlined_string (0.2ms)
+  Rendered /Users/jovi-new-imac/.rvm/rubies/ruby-2.0.0-p481/lib/ruby/gems/2.0.0/gems/web-console-2.1.1/lib/web_console/templates/_inner_console_markup.html within layouts/inlined_string (0.2ms)
+  Rendered /Users/jovi-new-imac/.rvm/rubies/ruby-2.0.0-p481/lib/ruby/gems/2.0.0/gems/web-console-2.1.1/lib/web_console/templates/_prompt_box_markup.html within layouts/inlined_string (0.2ms)
+  Rendered /Users/jovi-new-imac/.rvm/rubies/ruby-2.0.0-p481/lib/ruby/gems/2.0.0/gems/web-console-2.1.1/lib/web_console/templates/console.js within layouts/javascript (10.1ms)
+  Rendered /Users/jovi-new-imac/.rvm/rubies/ruby-2.0.0-p481/lib/ruby/gems/2.0.0/gems/web-console-2.1.1/lib/web_console/templates/main.js within layouts/javascript (0.2ms)
+  Rendered /Users/jovi-new-imac/.rvm/rubies/ruby-2.0.0-p481/lib/ruby/gems/2.0.0/gems/web-console-2.1.1/lib/web_console/templates/error_page.js within layouts/javascript (0.3ms)
+  Rendered /Users/jovi-new-imac/.rvm/rubies/ruby-2.0.0-p481/lib/ruby/gems/2.0.0/gems/web-console-2.1.1/lib/web_console/templates/index.html (22.4ms)
+
+
+Started GET "/application.css" for ::1 at 2015-03-31 01:10:50 +0800
+
+ActionController::RoutingError (No route matches [GET] "/application.css"):
+  actionpack (4.2.0) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  web-console (2.1.1) lib/web_console/middleware.rb:37:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.0) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.0) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.0) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.0) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.0) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.0) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.0) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.0) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.0) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.0) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/static.rb:113:in `call'
+  rack (1.6.0) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.0) lib/rails/engine.rb:518:in `call'
+  railties (4.2.0) lib/rails/application.rb:164:in `call'
+  rack (1.6.0) lib/rack/lock.rb:17:in `call'
+  rack (1.6.0) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.0) lib/rack/handler/webrick.rb:89:in `service'
+  /Users/jovi-new-imac/.rvm/rubies/ruby-2.0.0-p481/lib/ruby/2.0.0/webrick/httpserver.rb:138:in `service'
+  /Users/jovi-new-imac/.rvm/rubies/ruby-2.0.0-p481/lib/ruby/2.0.0/webrick/httpserver.rb:94:in `run'
+  /Users/jovi-new-imac/.rvm/rubies/ruby-2.0.0-p481/lib/ruby/2.0.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /Users/jovi-new-imac/.rvm/rubies/ruby-2.0.0-p481/lib/ruby/gems/2.0.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.1ms)
+  Rendered /Users/jovi-new-imac/.rvm/rubies/ruby-2.0.0-p481/lib/ruby/gems/2.0.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/routes/_route.html.erb (0.9ms)
+  Rendered /Users/jovi-new-imac/.rvm/rubies/ruby-2.0.0-p481/lib/ruby/gems/2.0.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.0ms)
+  Rendered /Users/jovi-new-imac/.rvm/rubies/ruby-2.0.0-p481/lib/ruby/gems/2.0.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.1ms)
+  Rendered /Users/jovi-new-imac/.rvm/rubies/ruby-2.0.0-p481/lib/ruby/gems/2.0.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (19.9ms)
+  Rendered /Users/jovi-new-imac/.rvm/rubies/ruby-2.0.0-p481/lib/ruby/gems/2.0.0/gems/web-console-2.1.1/lib/web_console/templates/_markup.html (0.3ms)
+  Rendered /Users/jovi-new-imac/.rvm/rubies/ruby-2.0.0-p481/lib/ruby/gems/2.0.0/gems/web-console-2.1.1/lib/web_console/templates/style.css within layouts/inlined_string (0.4ms)
+  Rendered /Users/jovi-new-imac/.rvm/rubies/ruby-2.0.0-p481/lib/ruby/gems/2.0.0/gems/web-console-2.1.1/lib/web_console/templates/_inner_console_markup.html within layouts/inlined_string (0.2ms)
+  Rendered /Users/jovi-new-imac/.rvm/rubies/ruby-2.0.0-p481/lib/ruby/gems/2.0.0/gems/web-console-2.1.1/lib/web_console/templates/_prompt_box_markup.html within layouts/inlined_string (0.3ms)
+  Rendered /Users/jovi-new-imac/.rvm/rubies/ruby-2.0.0-p481/lib/ruby/gems/2.0.0/gems/web-console-2.1.1/lib/web_console/templates/console.js within layouts/javascript (12.5ms)
+  Rendered /Users/jovi-new-imac/.rvm/rubies/ruby-2.0.0-p481/lib/ruby/gems/2.0.0/gems/web-console-2.1.1/lib/web_console/templates/main.js within layouts/javascript (0.3ms)
+  Rendered /Users/jovi-new-imac/.rvm/rubies/ruby-2.0.0-p481/lib/ruby/gems/2.0.0/gems/web-console-2.1.1/lib/web_console/templates/error_page.js within layouts/javascript (0.3ms)
+  Rendered /Users/jovi-new-imac/.rvm/rubies/ruby-2.0.0-p481/lib/ruby/gems/2.0.0/gems/web-console-2.1.1/lib/web_console/templates/index.html (26.2ms)
+
+
+Started GET "/" for ::1 at 2015-03-31 01:11:57 +0800
+Processing by PagesController#home as HTML
+  Rendered pages/home.html.erb within layouts/application (0.0ms)
+  Rendered shared/_navbar.html.erb (0.3ms)
+Completed 200 OK in 3ms (Views: 3.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/application.css" for ::1 at 2015-03-31 01:11:57 +0800
+
+ActionController::RoutingError (No route matches [GET] "/application.css"):
+  actionpack (4.2.0) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  web-console (2.1.1) lib/web_console/middleware.rb:37:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.0) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.0) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.0) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.0) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.0) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.0) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.0) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.0) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.0) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.0) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/static.rb:113:in `call'
+  rack (1.6.0) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.0) lib/rails/engine.rb:518:in `call'
+  railties (4.2.0) lib/rails/application.rb:164:in `call'
+  rack (1.6.0) lib/rack/lock.rb:17:in `call'
+  rack (1.6.0) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.0) lib/rack/handler/webrick.rb:89:in `service'
+  /Users/jovi-new-imac/.rvm/rubies/ruby-2.0.0-p481/lib/ruby/2.0.0/webrick/httpserver.rb:138:in `service'
+  /Users/jovi-new-imac/.rvm/rubies/ruby-2.0.0-p481/lib/ruby/2.0.0/webrick/httpserver.rb:94:in `run'
+  /Users/jovi-new-imac/.rvm/rubies/ruby-2.0.0-p481/lib/ruby/2.0.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /Users/jovi-new-imac/.rvm/rubies/ruby-2.0.0-p481/lib/ruby/gems/2.0.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.0ms)
+  Rendered /Users/jovi-new-imac/.rvm/rubies/ruby-2.0.0-p481/lib/ruby/gems/2.0.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/routes/_route.html.erb (0.6ms)
+  Rendered /Users/jovi-new-imac/.rvm/rubies/ruby-2.0.0-p481/lib/ruby/gems/2.0.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.1ms)
+  Rendered /Users/jovi-new-imac/.rvm/rubies/ruby-2.0.0-p481/lib/ruby/gems/2.0.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.8ms)
+  Rendered /Users/jovi-new-imac/.rvm/rubies/ruby-2.0.0-p481/lib/ruby/gems/2.0.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (17.2ms)
+  Rendered /Users/jovi-new-imac/.rvm/rubies/ruby-2.0.0-p481/lib/ruby/gems/2.0.0/gems/web-console-2.1.1/lib/web_console/templates/_markup.html (0.2ms)
+  Rendered /Users/jovi-new-imac/.rvm/rubies/ruby-2.0.0-p481/lib/ruby/gems/2.0.0/gems/web-console-2.1.1/lib/web_console/templates/style.css within layouts/inlined_string (0.2ms)
+  Rendered /Users/jovi-new-imac/.rvm/rubies/ruby-2.0.0-p481/lib/ruby/gems/2.0.0/gems/web-console-2.1.1/lib/web_console/templates/_inner_console_markup.html within layouts/inlined_string (0.2ms)
+  Rendered /Users/jovi-new-imac/.rvm/rubies/ruby-2.0.0-p481/lib/ruby/gems/2.0.0/gems/web-console-2.1.1/lib/web_console/templates/_prompt_box_markup.html within layouts/inlined_string (0.3ms)
+  Rendered /Users/jovi-new-imac/.rvm/rubies/ruby-2.0.0-p481/lib/ruby/gems/2.0.0/gems/web-console-2.1.1/lib/web_console/templates/console.js within layouts/javascript (11.2ms)
+  Rendered /Users/jovi-new-imac/.rvm/rubies/ruby-2.0.0-p481/lib/ruby/gems/2.0.0/gems/web-console-2.1.1/lib/web_console/templates/main.js within layouts/javascript (0.2ms)
+  Rendered /Users/jovi-new-imac/.rvm/rubies/ruby-2.0.0-p481/lib/ruby/gems/2.0.0/gems/web-console-2.1.1/lib/web_console/templates/error_page.js within layouts/javascript (0.2ms)
+  Rendered /Users/jovi-new-imac/.rvm/rubies/ruby-2.0.0-p481/lib/ruby/gems/2.0.0/gems/web-console-2.1.1/lib/web_console/templates/index.html (23.2ms)
+
+
+Started GET "/application.js" for ::1 at 2015-03-31 01:11:57 +0800
+
+ActionController::RoutingError (No route matches [GET] "/application.js"):
+  actionpack (4.2.0) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  web-console (2.1.1) lib/web_console/middleware.rb:37:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.0) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.0) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.0) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.0) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.0) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.0) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.0) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.0) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.0) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.0) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/static.rb:113:in `call'
+  rack (1.6.0) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.0) lib/rails/engine.rb:518:in `call'
+  railties (4.2.0) lib/rails/application.rb:164:in `call'
+  rack (1.6.0) lib/rack/lock.rb:17:in `call'
+  rack (1.6.0) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.0) lib/rack/handler/webrick.rb:89:in `service'
+  /Users/jovi-new-imac/.rvm/rubies/ruby-2.0.0-p481/lib/ruby/2.0.0/webrick/httpserver.rb:138:in `service'
+  /Users/jovi-new-imac/.rvm/rubies/ruby-2.0.0-p481/lib/ruby/2.0.0/webrick/httpserver.rb:94:in `run'
+  /Users/jovi-new-imac/.rvm/rubies/ruby-2.0.0-p481/lib/ruby/2.0.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /Users/jovi-new-imac/.rvm/rubies/ruby-2.0.0-p481/lib/ruby/gems/2.0.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (0.8ms)
+  Rendered /Users/jovi-new-imac/.rvm/rubies/ruby-2.0.0-p481/lib/ruby/gems/2.0.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/routes/_route.html.erb (0.6ms)
+  Rendered /Users/jovi-new-imac/.rvm/rubies/ruby-2.0.0-p481/lib/ruby/gems/2.0.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/routes/_table.html.erb (0.8ms)
+  Rendered /Users/jovi-new-imac/.rvm/rubies/ruby-2.0.0-p481/lib/ruby/gems/2.0.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.0ms)
+  Rendered /Users/jovi-new-imac/.rvm/rubies/ruby-2.0.0-p481/lib/ruby/gems/2.0.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (17.1ms)
+  Rendered /Users/jovi-new-imac/.rvm/rubies/ruby-2.0.0-p481/lib/ruby/gems/2.0.0/gems/web-console-2.1.1/lib/web_console/templates/_markup.html (0.2ms)
+  Rendered /Users/jovi-new-imac/.rvm/rubies/ruby-2.0.0-p481/lib/ruby/gems/2.0.0/gems/web-console-2.1.1/lib/web_console/templates/style.css within layouts/inlined_string (0.2ms)
+  Rendered /Users/jovi-new-imac/.rvm/rubies/ruby-2.0.0-p481/lib/ruby/gems/2.0.0/gems/web-console-2.1.1/lib/web_console/templates/_inner_console_markup.html within layouts/inlined_string (0.2ms)
+  Rendered /Users/jovi-new-imac/.rvm/rubies/ruby-2.0.0-p481/lib/ruby/gems/2.0.0/gems/web-console-2.1.1/lib/web_console/templates/_prompt_box_markup.html within layouts/inlined_string (0.3ms)
+  Rendered /Users/jovi-new-imac/.rvm/rubies/ruby-2.0.0-p481/lib/ruby/gems/2.0.0/gems/web-console-2.1.1/lib/web_console/templates/console.js within layouts/javascript (11.3ms)
+  Rendered /Users/jovi-new-imac/.rvm/rubies/ruby-2.0.0-p481/lib/ruby/gems/2.0.0/gems/web-console-2.1.1/lib/web_console/templates/main.js within layouts/javascript (0.2ms)
+  Rendered /Users/jovi-new-imac/.rvm/rubies/ruby-2.0.0-p481/lib/ruby/gems/2.0.0/gems/web-console-2.1.1/lib/web_console/templates/error_page.js within layouts/javascript (0.2ms)
+  Rendered /Users/jovi-new-imac/.rvm/rubies/ruby-2.0.0-p481/lib/ruby/gems/2.0.0/gems/web-console-2.1.1/lib/web_console/templates/index.html (23.5ms)
+
+
+Started GET "/application.css" for ::1 at 2015-03-31 01:12:02 +0800
+
+ActionController::RoutingError (No route matches [GET] "/application.css"):
+  actionpack (4.2.0) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  web-console (2.1.1) lib/web_console/middleware.rb:37:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.0) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.0) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.0) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.0) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.0) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.0) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.0) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.0) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.0) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.0) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/static.rb:113:in `call'
+  rack (1.6.0) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.0) lib/rails/engine.rb:518:in `call'
+  railties (4.2.0) lib/rails/application.rb:164:in `call'
+  rack (1.6.0) lib/rack/lock.rb:17:in `call'
+  rack (1.6.0) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.0) lib/rack/handler/webrick.rb:89:in `service'
+  /Users/jovi-new-imac/.rvm/rubies/ruby-2.0.0-p481/lib/ruby/2.0.0/webrick/httpserver.rb:138:in `service'
+  /Users/jovi-new-imac/.rvm/rubies/ruby-2.0.0-p481/lib/ruby/2.0.0/webrick/httpserver.rb:94:in `run'
+  /Users/jovi-new-imac/.rvm/rubies/ruby-2.0.0-p481/lib/ruby/2.0.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /Users/jovi-new-imac/.rvm/rubies/ruby-2.0.0-p481/lib/ruby/gems/2.0.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (0.8ms)
+  Rendered /Users/jovi-new-imac/.rvm/rubies/ruby-2.0.0-p481/lib/ruby/gems/2.0.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/routes/_route.html.erb (0.8ms)
+  Rendered /Users/jovi-new-imac/.rvm/rubies/ruby-2.0.0-p481/lib/ruby/gems/2.0.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/routes/_table.html.erb (0.9ms)
+  Rendered /Users/jovi-new-imac/.rvm/rubies/ruby-2.0.0-p481/lib/ruby/gems/2.0.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.5ms)
+  Rendered /Users/jovi-new-imac/.rvm/rubies/ruby-2.0.0-p481/lib/ruby/gems/2.0.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (18.1ms)
+  Rendered /Users/jovi-new-imac/.rvm/rubies/ruby-2.0.0-p481/lib/ruby/gems/2.0.0/gems/web-console-2.1.1/lib/web_console/templates/_markup.html (0.3ms)
+  Rendered /Users/jovi-new-imac/.rvm/rubies/ruby-2.0.0-p481/lib/ruby/gems/2.0.0/gems/web-console-2.1.1/lib/web_console/templates/style.css within layouts/inlined_string (0.4ms)
+  Rendered /Users/jovi-new-imac/.rvm/rubies/ruby-2.0.0-p481/lib/ruby/gems/2.0.0/gems/web-console-2.1.1/lib/web_console/templates/_inner_console_markup.html within layouts/inlined_string (36.1ms)
+  Rendered /Users/jovi-new-imac/.rvm/rubies/ruby-2.0.0-p481/lib/ruby/gems/2.0.0/gems/web-console-2.1.1/lib/web_console/templates/_prompt_box_markup.html within layouts/inlined_string (0.2ms)
+  Rendered /Users/jovi-new-imac/.rvm/rubies/ruby-2.0.0-p481/lib/ruby/gems/2.0.0/gems/web-console-2.1.1/lib/web_console/templates/console.js within layouts/javascript (48.8ms)
+  Rendered /Users/jovi-new-imac/.rvm/rubies/ruby-2.0.0-p481/lib/ruby/gems/2.0.0/gems/web-console-2.1.1/lib/web_console/templates/main.js within layouts/javascript (0.2ms)
+  Rendered /Users/jovi-new-imac/.rvm/rubies/ruby-2.0.0-p481/lib/ruby/gems/2.0.0/gems/web-console-2.1.1/lib/web_console/templates/error_page.js within layouts/javascript (0.4ms)
+  Rendered /Users/jovi-new-imac/.rvm/rubies/ruby-2.0.0-p481/lib/ruby/gems/2.0.0/gems/web-console-2.1.1/lib/web_console/templates/index.html (62.4ms)
+
+
+Started GET "/" for ::1 at 2015-03-31 01:24:21 +0800
+Processing by PagesController#home as HTML
+  Rendered pages/home.html.erb within layouts/application (0.9ms)
+  Rendered shared/_navbar.html.erb (0.6ms)
+Completed 200 OK in 18ms (Views: 10.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/application.css" for ::1 at 2015-03-31 01:24:21 +0800
+
+ActionController::RoutingError (No route matches [GET] "/application.css"):
+  actionpack (4.2.0) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  web-console (2.1.1) lib/web_console/middleware.rb:37:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.0) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.0) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.0) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.0) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.0) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.0) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.0) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.0) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.0) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.0) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/static.rb:113:in `call'
+  rack (1.6.0) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.0) lib/rails/engine.rb:518:in `call'
+  railties (4.2.0) lib/rails/application.rb:164:in `call'
+  rack (1.6.0) lib/rack/lock.rb:17:in `call'
+  rack (1.6.0) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.0) lib/rack/handler/webrick.rb:89:in `service'
+  /Users/jovi-new-imac/.rvm/rubies/ruby-2.0.0-p481/lib/ruby/2.0.0/webrick/httpserver.rb:138:in `service'
+  /Users/jovi-new-imac/.rvm/rubies/ruby-2.0.0-p481/lib/ruby/2.0.0/webrick/httpserver.rb:94:in `run'
+  /Users/jovi-new-imac/.rvm/rubies/ruby-2.0.0-p481/lib/ruby/2.0.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /Users/jovi-new-imac/.rvm/rubies/ruby-2.0.0-p481/lib/ruby/gems/2.0.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.0ms)
+  Rendered /Users/jovi-new-imac/.rvm/rubies/ruby-2.0.0-p481/lib/ruby/gems/2.0.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/routes/_route.html.erb (0.6ms)
+  Rendered /Users/jovi-new-imac/.rvm/rubies/ruby-2.0.0-p481/lib/ruby/gems/2.0.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/routes/_table.html.erb (4.6ms)
+  Rendered /Users/jovi-new-imac/.rvm/rubies/ruby-2.0.0-p481/lib/ruby/gems/2.0.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.9ms)
+  Rendered /Users/jovi-new-imac/.rvm/rubies/ruby-2.0.0-p481/lib/ruby/gems/2.0.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (21.4ms)
+  Rendered /Users/jovi-new-imac/.rvm/rubies/ruby-2.0.0-p481/lib/ruby/gems/2.0.0/gems/web-console-2.1.1/lib/web_console/templates/_markup.html (0.3ms)
+  Rendered /Users/jovi-new-imac/.rvm/rubies/ruby-2.0.0-p481/lib/ruby/gems/2.0.0/gems/web-console-2.1.1/lib/web_console/templates/style.css within layouts/inlined_string (31.2ms)
+  Rendered /Users/jovi-new-imac/.rvm/rubies/ruby-2.0.0-p481/lib/ruby/gems/2.0.0/gems/web-console-2.1.1/lib/web_console/templates/_inner_console_markup.html within layouts/inlined_string (0.3ms)
+  Rendered /Users/jovi-new-imac/.rvm/rubies/ruby-2.0.0-p481/lib/ruby/gems/2.0.0/gems/web-console-2.1.1/lib/web_console/templates/_prompt_box_markup.html within layouts/inlined_string (0.2ms)
+  Rendered /Users/jovi-new-imac/.rvm/rubies/ruby-2.0.0-p481/lib/ruby/gems/2.0.0/gems/web-console-2.1.1/lib/web_console/templates/console.js within layouts/javascript (43.0ms)
+  Rendered /Users/jovi-new-imac/.rvm/rubies/ruby-2.0.0-p481/lib/ruby/gems/2.0.0/gems/web-console-2.1.1/lib/web_console/templates/main.js within layouts/javascript (0.2ms)
+  Rendered /Users/jovi-new-imac/.rvm/rubies/ruby-2.0.0-p481/lib/ruby/gems/2.0.0/gems/web-console-2.1.1/lib/web_console/templates/error_page.js within layouts/javascript (0.3ms)
+  Rendered /Users/jovi-new-imac/.rvm/rubies/ruby-2.0.0-p481/lib/ruby/gems/2.0.0/gems/web-console-2.1.1/lib/web_console/templates/index.html (55.6ms)
+
+
+Started GET "/application.js" for ::1 at 2015-03-31 01:24:21 +0800
+
+ActionController::RoutingError (No route matches [GET] "/application.js"):
+  actionpack (4.2.0) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  web-console (2.1.1) lib/web_console/middleware.rb:37:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.0) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.0) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.0) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.0) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.0) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.0) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.0) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.0) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.0) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.0) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/static.rb:113:in `call'
+  rack (1.6.0) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.0) lib/rails/engine.rb:518:in `call'
+  railties (4.2.0) lib/rails/application.rb:164:in `call'
+  rack (1.6.0) lib/rack/lock.rb:17:in `call'
+  rack (1.6.0) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.0) lib/rack/handler/webrick.rb:89:in `service'
+  /Users/jovi-new-imac/.rvm/rubies/ruby-2.0.0-p481/lib/ruby/2.0.0/webrick/httpserver.rb:138:in `service'
+  /Users/jovi-new-imac/.rvm/rubies/ruby-2.0.0-p481/lib/ruby/2.0.0/webrick/httpserver.rb:94:in `run'
+  /Users/jovi-new-imac/.rvm/rubies/ruby-2.0.0-p481/lib/ruby/2.0.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /Users/jovi-new-imac/.rvm/rubies/ruby-2.0.0-p481/lib/ruby/gems/2.0.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.0ms)
+  Rendered /Users/jovi-new-imac/.rvm/rubies/ruby-2.0.0-p481/lib/ruby/gems/2.0.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/routes/_route.html.erb (0.7ms)
+  Rendered /Users/jovi-new-imac/.rvm/rubies/ruby-2.0.0-p481/lib/ruby/gems/2.0.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/routes/_table.html.erb (0.8ms)
+  Rendered /Users/jovi-new-imac/.rvm/rubies/ruby-2.0.0-p481/lib/ruby/gems/2.0.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.8ms)
+  Rendered /Users/jovi-new-imac/.rvm/rubies/ruby-2.0.0-p481/lib/ruby/gems/2.0.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (17.1ms)
+  Rendered /Users/jovi-new-imac/.rvm/rubies/ruby-2.0.0-p481/lib/ruby/gems/2.0.0/gems/web-console-2.1.1/lib/web_console/templates/_markup.html (0.4ms)
+  Rendered /Users/jovi-new-imac/.rvm/rubies/ruby-2.0.0-p481/lib/ruby/gems/2.0.0/gems/web-console-2.1.1/lib/web_console/templates/style.css within layouts/inlined_string (0.2ms)
+  Rendered /Users/jovi-new-imac/.rvm/rubies/ruby-2.0.0-p481/lib/ruby/gems/2.0.0/gems/web-console-2.1.1/lib/web_console/templates/_inner_console_markup.html within layouts/inlined_string (0.2ms)
+  Rendered /Users/jovi-new-imac/.rvm/rubies/ruby-2.0.0-p481/lib/ruby/gems/2.0.0/gems/web-console-2.1.1/lib/web_console/templates/_prompt_box_markup.html within layouts/inlined_string (0.2ms)
+  Rendered /Users/jovi-new-imac/.rvm/rubies/ruby-2.0.0-p481/lib/ruby/gems/2.0.0/gems/web-console-2.1.1/lib/web_console/templates/console.js within layouts/javascript (10.9ms)
+  Rendered /Users/jovi-new-imac/.rvm/rubies/ruby-2.0.0-p481/lib/ruby/gems/2.0.0/gems/web-console-2.1.1/lib/web_console/templates/main.js within layouts/javascript (0.2ms)
+  Rendered /Users/jovi-new-imac/.rvm/rubies/ruby-2.0.0-p481/lib/ruby/gems/2.0.0/gems/web-console-2.1.1/lib/web_console/templates/error_page.js within layouts/javascript (0.2ms)
+  Rendered /Users/jovi-new-imac/.rvm/rubies/ruby-2.0.0-p481/lib/ruby/gems/2.0.0/gems/web-console-2.1.1/lib/web_console/templates/index.html (23.7ms)
