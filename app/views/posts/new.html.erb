@@ -1,0 +1,15 @@
+<h1>新增文章</h1>
+
+<!-- 使用form_tag能協助產生CSRF憑證 -->
+<%= form_tag posts_path do %>
+
+	<%= text_field_tag :title %> <br>
+	<!-- <input type="text" name="title"> -->
+
+	<%= text_area_tag :content %> <br>
+	<!-- <textarea name="content"></textarea> -->
+
+
+	<input type="submit">
+
+<% end %>
