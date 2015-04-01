@@ -17,8 +17,10 @@ class PostsController < ApplicationController
   end
 
   def create
-  	@post = Post.new title: params[:title],
-  					 content: params[:content]
+  	# @post = Post.new title: params[:title],
+  					 # content: params[:content]
+
+  	@post = Post.new params[:post].to_h  #直接初始化
   	if @post.save
   		redirect_to @post
   		# 等於 post_path(@post)
@@ -28,7 +30,10 @@ class PostsController < ApplicationController
   	end
   end
 
-
+  private
+  def post_params
+  	params.require(:post).permit(:title, :content)
+  end
 
 
 
